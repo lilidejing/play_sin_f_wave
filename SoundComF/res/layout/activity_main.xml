@@ -1,0 +1,107 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.csw.soundcomf.MainActivity" 
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_world" />
+
+    
+    
+    
+
+    
+    <Button 
+        android:id="@+id/Model1Btn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="发送0x1234 0x01 0x47(单次)"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:layout_marginTop="5dip"
+        />
+    
+    <Button 
+        android:id="@+id/Model2Btn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="发送0x1234 0x02 0x48(单次)"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:layout_marginTop="5dip"
+        />
+    <Button 
+        android:id="@+id/Model3Btn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="发送0x1234 0x03 0x49(单次)"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:layout_marginTop="5dip"
+        />
+    <Button 
+        android:id="@+id/Model4Btn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="发送0x1234 0x04 0x4A(单次)"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:layout_marginTop="5dip"
+        />
+    <Button 
+        android:id="@+id/Model5Btn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="发送0x1234 0x05 0x4B(单次)"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:layout_marginTop="5dip"
+        />
+    <Button 
+        android:id="@+id/Model6Btn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="发送0x1234 0x06 0x4C(单次)"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:layout_marginTop="5dip"
+        />
+    <Button 
+        android:id="@+id/Model7Btn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="发送0x1234 0x07 0x4D(单次)"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:layout_marginTop="5dip"
+        />
+    
+    
+    <Button 
+        android:id="@+id/xunhuanModelBtn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="发送0x1234 0x01 0x47(循环)"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:layout_marginTop="5dip"
+        
+        />
+    
+    
+    
+    
+    <Button 
+        android:id="@+id/stopBtn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="停止循环"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:layout_marginTop="5dip"
+        />
+</LinearLayout>

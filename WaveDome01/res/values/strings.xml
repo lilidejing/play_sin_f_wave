@@ -1,0 +1,12 @@
+<resources>
+
+    <string name="app_name">WaveDome01</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">播放方波测试app</string>
+    <string name="paly2Khz">播放2KHz方波</string>
+    <string name="paly1Khz">播放1KHz方波</string>
+    <string name="paly4Khz">播放4KHz方波</string>
+    <string name="stop">停止播放</string>
+
+</resources>

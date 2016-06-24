@@ -1,0 +1,58 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.csw.soundcom.MainActivity" >
+
+    <TextView
+        android:id="@+id/titile"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_world"
+        android:textSize="20sp"
+        android:gravity="center"/>
+    
+    
+    <Button 
+        android:id="@+id/firstModelBtn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="模式一"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:layout_marginTop="20dip"
+        
+        />
+    
+    <Button 
+        android:id="@+id/secondModelBtn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="模式二"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:layout_marginTop="20dip"
+        />
+    
+    <Button 
+        android:id="@+id/thirdModelBtn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="模式三"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:layout_marginTop="20dip"
+        />
+    
+    <Button 
+        android:id="@+id/fourthModelBtn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="模式四"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:layout_marginTop="20dip"
+        />
+
+</LinearLayout>

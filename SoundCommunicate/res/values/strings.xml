@@ -1,0 +1,16 @@
+<resources>
+
+    <string name="app_name">SoundCommunicate</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_sound_communicate">SoundCommunicate</string>
+    <string name="defSendMsg">Messages send out from the audio port,you can add your messages at here...</string>
+    <string name="sendMsg">发送消息</string>
+    <string name="powerOn">电源开</string>
+    <string name="powerOff">电源关</string>
+    <string name="powerFreq">电源频率：</string>
+    <string name="recMsgOn">消息开</string>
+    <string name="recMsgOff">消息关</string>
+    <string name="havdRecdMsgs">接收到消息：\r\n</string>
+
+</resources>

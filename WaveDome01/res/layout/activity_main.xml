@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:orientation="vertical">
+
+ <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:orientation="vertical">
+
+     <TextView 
+         android:id="@+id/title"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="播放方波测试"
+         
+         />
+    <Button
+        android:id="@+id/btn_play1Khz"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/paly1Khz" 
+        android:layout_marginTop="10dip"
+        android:textSize="24sp"/>
+
+    
+    <Button
+        android:id="@+id/btn_play2Khz"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/paly2Khz"
+        android:layout_marginTop="5dip" 
+        android:textSize="24sp"/>
+     <Button
+        android:id="@+id/btn_play4Khz"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/paly4Khz" 
+        android:layout_marginTop="5dip"
+        android:textSize="24sp"/>
+
+	</LinearLayout>
+
+<Button
+    android:id="@+id/btn_stop"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/stop" 
+    android:layout_marginTop="10dip"
+    android:textSize="24sp"/>
+    
+
+</LinearLayout>
